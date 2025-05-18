@@ -14,7 +14,7 @@ public class ValidatorHelper {
     }
 
     public static void nullOrEmpty(String value, String message) {
-        if (value == null || "".equalsIgnoreCase(value)) {
+        if (value == null || "".equalsIgnoreCase(value.replaceAll("(\\t| )", ""))) {
             throw new BusinessException(message);
         }
     }
