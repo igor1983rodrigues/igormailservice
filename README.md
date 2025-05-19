@@ -20,7 +20,6 @@ Dado o objeto de e-mail a ser enviado, contento nome e e-mail de destino, e-mail
 * Strategy para aplicação de interfaces de validação
 * Dependence Injection
 * Factory Method implicito para emcapsular a conversão de DTO de saída
-* 
 
 # Modo de uso
 Acesse o arquivo application.properties, ou application.yaml, dentro dos <i>resources</i>, e procure pela propriedade <code>mail.integracao</code> (crie ela, caso não existir), e defina seus valores como <u>OCI</u> ou <u>AWS</u>.
